@@ -375,7 +375,7 @@ body>nav.search .typeahead {
 
 .tt-dropdown-menu {
   width: 422px;
-  margin-top: 12px;
+  margin-top: 5px;
   padding: 8px 0;
   background-color: #fff;
   border: 1px solid #ccc;
@@ -414,21 +414,30 @@ body>nav.toplevel>ul {
 
 body>nav.toplevel>ul>li {
     display: inline-block;
-    border: 1px solid #000000;
-    background-color: #FFFFFF;
+    border: 1px solid #444;
+    background-color: #eee;
     margin: -1px -5px 0 -2px;
     padding: 0px 10px;
     white-space: nowrap;
 }
 
+body>nav.toplevel>ul>li:first-child {
+    -webkit-border-bottom-left-radius: 5px;
+       -moz-border-bottom-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+}
+
 body>nav.toplevel>ul>li:last-child {
-    border-right: 1px solid #000000;
+    border-right: 1px solid #444;
+    -webkit-border-bottom-right-radius: 5px;
+       -moz-border-bottom-right-radius: 5px;
+            border-bottom-right-radius: 5px;
     clear: both;
 }
 
 body>nav.toplevel>ul>li>a {
-    font-family: "Helvetia", "Verdana", "Sans-Serif";
-    color: #000000;
+    font-family: Georgia, Palatino, 'Palatino Linotype', Times, 'Times New Roman', "Hiragino Sans GB", "STXihei", "............", serif;
+    color: #444;
 }
 
 body>nav.toplevel>ul>li>a:hover {
