@@ -2,6 +2,10 @@
 
 allmark is a fast, standalone markdown web server for Linux, Mac OS and Windows written in go.
 
+```diff
+- arnoSCC: This specific fork add Asciinema JS and CSS and remove preview of child items
+```
+
 ![allmark logo](files/design/logo/PNG8/allmark-logo-128x128.png)
 
 allmark is a file-system-centric markdown web server. You can **point it at any directory that contains markdown files** and it will immediately start a web-server that serves the rendered HTML content of the markdown file to you.

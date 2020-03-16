@@ -31,13 +31,6 @@ const documentTemplate = `
 
 <div class="cleaner"></div>
 
-{{ if .Children }}
-<section class="preview">
-	<ul>
-	</ul>
-</section>
-{{end}}
-
 {{template "aliases-snippet" .}}
 {{template "tags-snippet" .}}
 `
